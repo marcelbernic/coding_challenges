@@ -15,7 +15,7 @@ source ./venv/bin/activate
 
 3. Install dependencies:
 ```
-pip install -r requirements.txt
+poetry install
 ```
 
 4. Launch `jupyter notebook`
