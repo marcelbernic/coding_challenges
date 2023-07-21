@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "coding-challenges"
+version = "0.1.0"
+description = "Coding challenges in python"
+authors = ["Marcel Bernic"]
+readme = "README.md"
+packages = [{include = "coding_challenges"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+jupyter = "^1.0.0"
+numpy = "^1.25.1"
+requests = "^2.31.0"
+pytest = "^7.4.0"
+sendgrid = "^6.10.0"
+mock = "^5.1.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
